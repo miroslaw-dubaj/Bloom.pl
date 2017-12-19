@@ -1,0 +1,39 @@
+.bloomlogo {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 100px;
+}
+
+.bloombielizna {
+  letter-spacing: 6px;
+  white-space: nowrap;
+}
+
+main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    background-color: #cbc5c1;
+    margin-bottom: 0px;
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #cbc5c1;
+}
+
+nav {
+  background-color: #a2aab0;
+}
+
+.bmenu:hover {
+  background-color: #4c586f;
+}
+
+/*
+#cbc5c1 - cashmere
+#a2aab0 - french blue
+#ebeced - white wash
+#4c586f - denim
+#3e3e3b - gunmetal
+*/
