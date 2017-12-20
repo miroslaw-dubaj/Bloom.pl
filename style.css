@@ -30,6 +30,13 @@ nav {
   background-color: #4c586f;
 }
 
+a.menu {
+  color: white;
+}
+
+button.nav-toggler {
+  color: white;
+}
 /*
 #cbc5c1 - cashmere
 #a2aab0 - french blue
