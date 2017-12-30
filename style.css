@@ -1,8 +1,14 @@
+/* ID of Nav Brand logo */
 #bloomlogo {
   font-family: 'Dr Sugiyama', cursive;
   font-size: 40px;
 }
-
+/* Class of every in-text logo used */
+.bloomlogo {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 1.2rem;
+}
+/* Class of every jumbotron logo used */
 h1.bloomlogo {
   font-family: 'Dr Sugiyama', cursive;
   font-size: 100px;
@@ -10,7 +16,7 @@ h1.bloomlogo {
                0px 8px 13px rgba(0, 0, 0, 0.1),
                0px 18px 23px rgba(0, 0, 0, 0.1);
 }
-
+/* Jumbotron under logo text */
 .bloombielizna {
   letter-spacing: 6px;
   white-space: nowrap;
