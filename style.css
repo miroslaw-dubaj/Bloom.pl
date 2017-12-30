@@ -3,6 +3,14 @@
   font-size: 100px;
 }
 
+h1.bloomlogo {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 100px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
 .bloombielizna {
   letter-spacing: 6px;
   white-space: nowrap;
@@ -12,9 +20,13 @@ main {
   font-family: 'Montserrat', sans-serif;
 }
 
-.jumbotron {
-    background-color: #cbc5c1;
-    margin-bottom: 0px;
+header.jumbotron-fluid {
+/*    background-color: #cbc5c1; */
+  background-color: #e9ecef;
+  background: url(bloomtlo.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 3px rgba(12,13,14,0.1), 0 4px 20px rgba(12,13,14,0.035), 0 1px 1px rgba(12,13,14,0.025);
 }
 
 header {
@@ -22,14 +34,31 @@ header {
   background-color: #cbc5c1;
 }
 
-nav {
+nav.navbar {
   background-color: #a2aab0;
+  box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 3px rgba(12,13,14,0.1), 0 4px 20px rgba(12,13,14,0.035), 0 1px 1px rgba(12,13,14,0.025);
 }
 
 .bmenu:hover {
   background-color: #4c586f;
 }
 
+a.menu {
+  color: white;
+}
+
+button.nav-toggler {
+  color: white;
+}
+
+.text-dark:hover {
+  text-transform: none;
+  text-decoration: none;
+}
+
+.nobreak {
+  white-space:nowrap;
+}
 /*
 #cbc5c1 - cashmere
 #a2aab0 - french blue
